@@ -67,19 +67,24 @@ margin: auto auto 15px auto;
     /* ------ Max width to keep logo image from being larger than intended ------ */
     width: 300px;
     height: auto;
-    margin: auto;
+    margin: 45px;
     /* display: block; */
     align: left;
     z-index: 0;
 
 }
 
-#headerimg {
+/* #headerimg {
   z-index: -1;
   max-width: 100%;
   position: absolute;
   right: 0;
   top: 0;
+} */
+
+#grad1 {
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(9,118,181,0), rgba(9,118,181,1));
 }
 
 /* Slideshow container */
