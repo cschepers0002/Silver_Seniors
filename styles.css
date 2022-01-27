@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "San Andreas";
+  src: SanAndreas_PERSONAL_USE_ONLY.otf;
+} 
+
 /* --------
 Styles for your mobile webpage
  -------- */
@@ -12,13 +17,6 @@ body{
 h1 {
   font-family: "San Andreas";
 }
-
-
-
-/* @font-face {
-  font-family: "San Andreas";
-  src: url("C:\Users\Charlotte\Documents\jctc\spring 2022\silver seniors redesign\san_andreas\SanAndreas_PERSONAL_USE_ONLY.otf");
-} */
 
 /* These styles are for background color to the top navigation */
 .topnav {
