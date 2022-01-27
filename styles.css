@@ -1,6 +1,6 @@
 @font-face {
   font-family: "San Andreas";
-  src: url(SanAndreas_PERSONAL_USE_ONLY.otf);
+  src: url(SanAndreas_PERSONAL_USE_ONLY.otf) format("opentype");
 } 
 
 /* --------
