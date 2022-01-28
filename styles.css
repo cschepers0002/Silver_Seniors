@@ -11,8 +11,37 @@ body{
 
 h1 {
   font-family: "San Andreas";
+  text-align:center;
+
 }
 
+p {
+  margin: auto;
+  text-align:center;
+  padding: 20px 80px;
+}
+
+button {
+
+  border: 2px solid white;
+  padding:15px;
+ font-size: 1.4em;
+ color: white;
+ background: #4682B4;
+  border-radius: 4px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+}
+
+#wrapper {
+  text-align: center;
+}
 
 
 /* @font-face {
