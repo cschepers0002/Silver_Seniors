@@ -1,18 +1,21 @@
+
 /* --------
 Styles for your mobile webpage
  -------- */
  @font-face {
    font-family: 'San Andreas';
    src: url('SanAndreas_PERSONAL_USE_ONLY.otf') format('opentype');
+   font-weight: normal;
  }
 
 body{
   background: white;
-  font-size: 1em;
+  font-size: 16px;
   font-family: 'Rockwell', sans-serif;
   margin:0;
   padding:0;
 }
+
 
 h1 {
   font-family: 'San Andreas';
@@ -78,6 +81,11 @@ p {
   font-family: "San Andreas";
   src: url("C:\Users\Charlotte\Documents\jctc\spring 2022\silver seniors redesign\san_andreas\SanAndreas_PERSONAL_USE_ONLY.otf");
 } */
+
+h1, h2 {
+  font-family: "San Andreas";
+  font-weight:normal;
+}
 
 /* These styles are for background color to the top navigation */
 .topnav {
