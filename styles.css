@@ -1,6 +1,11 @@
 /* --------
 Styles for your mobile webpage
  -------- */
+ @font-face {
+   font-family: 'San Andreas';
+   src: url('SanAndreas_PERSONAL_USE_ONLY.otf') format:"opentype");
+ }
+
 body{
   background: white;
   font-size: 1em;
