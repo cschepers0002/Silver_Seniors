@@ -250,6 +250,12 @@ margin: auto auto 15px auto;
   to {opacity: 1}
 }
 
+.about-hero {
+  background-image: url("images/about-hero.jpg");
+  height: 40vh;
+    min-height:500px;
+    position: relative;
+}
 footer{
     text-align: center;
     /* background-color: #4682b4; */
