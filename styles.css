@@ -214,6 +214,18 @@ button {
     min-height:500px;
     position: relative;
 }
+
+.about-columns {
+  column-count: 3;
+  column-gap: 10px;
+  
+}
+
+.row1{
+    padding:5px;
+}
+
+
 footer{
     text-align: center;
     /* background-color: #4682b4; */
