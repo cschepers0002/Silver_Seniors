@@ -263,6 +263,20 @@ footer a{
     text-decoration: none;
 }
 
+#green-footer {
+  background-color: #BCC73A;
+
+}
+
+#pink-footer {
+  background-color: #ed2490;
+
+}
+
+#blue-footer {
+  background-color: #0976b5;
+
+}
 
 /* --------
 MOBILE NAV STYLES
