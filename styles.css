@@ -285,13 +285,30 @@ footer{
 }
 
 #white-logo {
-  float: right;
+  float: center;
   width: 300px;
   height: auto;
   margin: 45px;
   /* display: block; */
-  align: right;
+  align: center;
   z-index: 0;
+}
+
+/* Create three equal columns that floats next to each other */
+.footer-column {
+  float: left;
+  width: 22%;
+  padding: 10px;
+  text-align: center;
+
+}
+
+/* Clear floats after the columns */
+.footer-row:after {
+  content: "";
+  display: table;
+  clear: both;
+
 }
 
 /* --------
