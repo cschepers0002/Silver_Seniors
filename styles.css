@@ -215,11 +215,7 @@ button {
     position: relative;
 }
 
-.about-columns {
-  column-count: 3;
-  column-gap: 10px;
-  
-}
+
 
 .row1{
     padding:5px;
@@ -340,7 +336,7 @@ DESKTOP STYLES
   }
 
   p{
-      padding: 20px 80px;
+      padding: 20px;
   }
   .column1 {
     float: left;
@@ -356,6 +352,12 @@ DESKTOP STYLES
     display: table;
   }
 
+/*About Text Columns */
+  .about-columns {
+    column-count: 3;
+    column-gap: 10px;
+
+  }
 
   /* Create three equal columns that floats next to each other */
   .footer-column {
