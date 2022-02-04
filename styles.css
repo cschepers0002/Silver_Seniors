@@ -90,7 +90,9 @@ button {
 }
 
 .color-bar {
-  height: 3px;
+  height: 10px;
+  background: rgb(181,199,58);
+  background: linear-gradient(90deg, rgba(181,199,58,1) 35%, rgba(237,36,144,1) 35%, rgba(237,36,144,1) 68%, rgba(10,118,181,1) 68%);
 }
 
 /* #headerimg {
@@ -353,6 +355,9 @@ DESKTOP STYLES
     text-align: center;
   }
 
+  .color-bar {
+    height: 15px;
+  }
 
   .column1 {
     float: left;
