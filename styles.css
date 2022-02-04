@@ -91,7 +91,7 @@ button {
 
 .color-bar {
   height: 15px;
-  margin-top: -5px;
+  margin-top: -10px;
   background: rgb(181,199,58);
   background: linear-gradient(90deg, rgba(181,199,58,1) 35%, rgba(237,36,144,1) 35%, rgba(237,36,144,1) 68%, rgba(10,118,181,1) 68%);
 }
