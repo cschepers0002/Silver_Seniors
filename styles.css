@@ -365,6 +365,7 @@ p {
 
   .color-bar {
     height: 15px;
+    margin-top: -5px;
   }
 
   .column1 {
