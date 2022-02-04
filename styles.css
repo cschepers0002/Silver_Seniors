@@ -342,7 +342,15 @@ DESKTOP STYLES
       display: none;
   }
 
-  p{
+
+  #logo {
+      /* ------ Max width to keep logo image from being larger than intended ------ */
+      width: 400px;
+      height: auto;
+      margin: 45px;
+}
+
+p {
       padding: 20px;
   }
 
