@@ -221,11 +221,12 @@ button {
 }
 
 .about-hero {
-  background-image: url("images/Outside-Building.gif");
-  height: 80vh;
+    background-image: url("images/Outside-Building.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     min-height:300px;
     min-width: 100px
-    position: relative;
 }
 
 
@@ -304,6 +305,20 @@ footer p{
 }
 footer a{
     color:white;
+    line-height: 1.9;
+}
+.footer-flex{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.footer-flex-item{
+    flex-grow: 1;
+    flex-basis: 200px;
 }
 /* footer a{
     color: white;
@@ -426,13 +441,13 @@ DESKTOP STYLES
   }
 
   #grad2 {
-    height: 200px;
-    background-image: linear-gradient(to right, rgba(182,199,54,0), rgba(182,199,54,1));
+    /* height: 200px; */
+    background-image: linear-gradient(to right, rgba(182,199,54,0) 33%, rgba(182,199,54,1));
   }
 
   #grad3 {
-    height: 200px;
-    background-image: linear-gradient(to right, rgba(237,36,144,0), rgba(237,36,144,1));
+    /* height: 200px; */
+    background-image: linear-gradient(to right, rgba(237,36,144,0) 33%, rgba(237,36,144,1));
   }
 
 p {
@@ -467,14 +482,23 @@ p {
     display: table;
   }
 
-/*About Text Columns */
+/*About -------------------- */
+.about-hero{
+    height: 50vh;
+}
   .about-columns {
     column-count: 3;
     column-gap: 10px;
-
+    column-rule: 2px solid #e8e8e8;
   }
-
+  .about-columns p{
+      padding-top: 0;
+      /* margin-bottom:40px; */
+  }
   /* Create three equal columns that floats next to each other */
+  .footer-flex{
+      display: block;
+  }
   .footer-column {
     float: left;
     width: 22%;
@@ -490,22 +514,33 @@ p {
 
   }
 
-/* Contact Form */
-  form{
+    /* Contact Form */
+    .wrapper2 {
+        margin: 15px auto;
+        width:90%;
+        padding:20px 0;
+    }
+    .wrapper2:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    form{
      /* CHANGE WIDTH TO YOUR PREFERENCE */
      width:47%;
      float:left;
-     margin:1%;
-     }
-     input{
-     width:60%;
-     }
-     button{
-     margin-top: 2%;
-     margin-bottom: 2%;
-     }
-     #map{
-         float:left;
-         width:48%;
-     }
+     margin:0 1%;
+    }
+    input{
+        width:60%;
+    }
+    button{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #map{
+        float:left;
+        width:48%;
+    }
 }
