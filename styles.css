@@ -359,9 +359,23 @@ footer a{
 /* --------
 MOBILE NAV STYLES
 -------- */
+
+
+/* Each page has a different top nav color that corrisponds to the gradient. We will target each of the top navs and give it a color. */
+
+#grad1 .topnav{
+    background-color: rgba(9,118,181,1);
+}
+#grad2 .topnav{
+    background-color: pink;
+}
+#grad3 .topnav{
+    background-color: green;
+}
+
 .topnav {
 	overflow: hidden;
-    background-color: rgba(9,118,181,1);
+    /* background-color: rgba(9,118,181,1); */
 }
 .topnav a {
 	display: none;
