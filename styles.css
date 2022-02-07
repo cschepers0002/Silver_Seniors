@@ -290,6 +290,15 @@ box-sizing: border-box;
 
 /* END MOBILE FORM STYLES */
 
+.services-hero {
+  background-image: url("images/thumbup.jpg");
+  height: 80vh;
+    min-height:300px;
+    min-width: 100px
+    position: relative;
+
+}
+
 
 footer{
     text-align: center;
