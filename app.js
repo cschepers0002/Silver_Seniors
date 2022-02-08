@@ -1,16 +1,14 @@
-<!--  Don't Touch Javascript below
-      This needs to be on every HTML document  -->
-        <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 
-        var slideIndex = 1;
+
+var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -38,4 +36,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
-        </script>
