@@ -291,7 +291,7 @@ box-sizing: border-box;
 /* END MOBILE FORM STYLES */
 
 .services-hero {
-  background-image: url("images/thumbup.jpg");
+  background-image: url("images/service-hero3.jpg");
   height: 80vh;
     min-height:300px;
     min-width: 100px
@@ -299,6 +299,33 @@ box-sizing: border-box;
 
 }
 
+
+
+.Service-grid {
+  padding: 0 0 30px 30px;
+  height: 50px;
+  max-width: 20%;
+
+}
+
+.green-shadow {
+  display: inline-block;
+  box-shadow: -30px 30px 0 rgba(182,199,54,1);
+  max-width: 20%;
+
+}
+
+.pink-shadow {
+  display: inline-block;
+  box-shadow: -30px 30px 0 rgba(237,36,144,1);
+  max-width: 20%;
+}
+
+.blue-shadow {
+  display: inline-block;
+  box-shadow: -30px 30px 0 rgba(9,118,181,1);
+  max-width: 20%;
+}
 
 footer{
     text-align: center;
