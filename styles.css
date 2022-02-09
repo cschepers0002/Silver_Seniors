@@ -99,6 +99,7 @@ margin: auto auto 15px auto;
 button {
   background-color: #0b76b6; /* Blue */
   color: white;
+  font-family: "Rockwell";
   padding: 12px 28px;
   text-align: center;
   text-decoration: none;
@@ -368,12 +369,13 @@ footer a{
 }
 
 .footer-img {
-  padding: 15px;
+  padding: 9px;
+  max-width: 11%;
 }
 
 #white-logo {
   float: center;
-  width: 300px;
+  width: 250px;
   height: auto;
   /* display: block; */
   align: center;
