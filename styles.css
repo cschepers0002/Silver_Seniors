@@ -302,7 +302,7 @@ box-sizing: border-box;
   margin: auto;
 }
 .service-grid p{
-    text-align: center;
+    text-align: left;
 }
 .green-shadow {
   box-shadow: -20px 20px 0px rgba(182,199,54,1);
@@ -310,12 +310,12 @@ box-sizing: border-box;
 }
 /* TODO match up the box shadows */
 .pink-shadow {
-  box-shadow: -10px 10px 0 rgba(237,36,144,1);
+  box-shadow: -20px 20px 0 rgba(237,36,144,1);
   /* max-width: 20%; */
 }
 
 .blue-shadow {
-  box-shadow: -10px 10px 0 rgba(9,118,181,1);
+  box-shadow: -20px 20px 0 rgba(9,118,181,1);
   /* max-width: 20%; */
 }
 
@@ -493,7 +493,8 @@ DESKTOP STYLES
   }
 
   p {
-      padding: 20px;
+      padding: 10px;
+
   }
 
   h1, h2 {
@@ -592,7 +593,7 @@ DESKTOP STYLES
         justify-content: space-between;
     }
     figure{
-        width:30%;
+        width:20%;
 
     }
 }
