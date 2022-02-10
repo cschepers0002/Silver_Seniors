@@ -370,7 +370,7 @@ footer a{
 
 .footer-img {
   padding: 9px;
-  max-width: 11%;
+  max-width: 20%;
 }
 
 #white-logo {
@@ -555,6 +555,11 @@ DESKTOP STYLES
     display: table;
     clear: both;
 
+  }
+
+  .footer-img {
+    padding: 9px;
+    max-width: 11%;
   }
 
     /* Contact ---------- */
